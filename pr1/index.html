@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Le Journal</title>
+		<style type="text/css">
+			html {
+				-ms-text-size-adjust: 100%;
+				-webkit-text-size-adjust: 100%;
+			}			
+			body {
+				margin: 0;
+				font: 100%, "times new roman", serif;
+			}				
+			@font-face {
+				font-family: 'Social Icons';
+				src: url("css/font/socialico-webfont.eot");
+				src: url("css/font/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("css/font/socialico-webfont.woff") format("woff"), url("css/font/socialico-webfont.ttf") format("truetype");
+				font-weight: normal;
+				font-style: normal;
+			}			
+			a:focus {
+				outline: thin dotted;
+			}			
+			a:active,
+			a:hover {
+				outline: 0;
+			}			
+			small {
+				font-size: 80%;
+			}			
+			img {
+				border;
+				0;
+			}
+			
+			h1 {
+				color: #212121;
+				font-family: 'Lato', sans-serif;
+				font-size: 3.25em;
+				font-weight: 300;
+				letter-spacing: -2px;
+				line-height: .975;
+			}
+			
+			ul,
+			ol {
+				list-style: none;
+			}
+			
+			a {
+				color: #1162a4;
+				text-decoration: none;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}
+			
+			article,
+			aside,
+			footer,
+			header,
+			main,
+			nav,
+			section {
+				display: block;
+			}
+			
+			.page {
+				margin: 0 auto;
+				width: 960px;
+			}
+			
+			.container {
+				background: url(img/bg.png) repeat-y 629px 0;
+				padding-bottom: 1.9375em;
+			}
+			
+			main {
+				float: left;
+				width: 600px;
+			}
+			
+			.sidebar {
+				float: right;
+				margin-top;
+				1.875em;
+				width: 300px;
+			}
+			
+			.masthead {
+				padding-top: 10px;
+				position: relative;
+			}
+			
+			.logo {
+				font-size: 10px;
+				line-height: 1;
+				margin-bottom: -8px;
+				margin-top: 0;
+				text-align: left;
+			}
+			
+			.nav-main {
+				border-bottom: 1px solid #c7c7c8;
+				border-top: 5px solid #019443;
+				margin-bottom: 0;
+				padding: .45em 0.5em;
+			}
+			
+			.nav-main li {
+				border-left: 1px solid #c8c8c8;
+				display: inline-block;
+				text-align: left;
+			}
+			
+			.nav-main li:first-child {
+				border-left: none;
+			}
+			
+			.nav-main li:last-child a {
+				padding-right: 0;
+			}
+			
+			.nav-main a {
+				color: #292929;
+				display: inline-block;
+				font-size: 1.125em;
+				padding: .5em 1.15em .5em 1.4em;
+			}
+			
+			.nav-main a:hover {
+				color: #029443;
+				text-decoration: none;
+			}
+			
+			.nav-main .current-page,
+			.nav-main .current-page:hover {
+				color: #747474;
+				cursor: default;
+			}
+			
+			.social-sites {
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				right: -3px;
+				top: 41px;
+			}
+			
+			.social-sites li {
+				display: inline;
+				margin-left: -1px;
+			}
+			
+			.social-sites a {
+				color: #019443;
+				font-family: 'Social Icons', sans-serif;
+				font-size: 46px;
+				line-height: .8;
+				vertical-align: middle;
+			}
+			
+			.social-sites a:hover {
+				color: #1162a4;
+				text-decoration: none;
+			}
+			
+			.post-photo {
+				float: left;
+				margin-bottom: 2px;
+				margin-right: 22px;
+				max-width: 66.667%;
+			}
+			
+			.post-blurb p {
+				color: #363636;
+				font-size: 1em;
+				line-height: 1.4;
+			}
+			
+			footer[role="contentinfo"] {
+				border-top: 1px solid #cacbcb;
+			}
+			
+			.footer p {
+				color: #3a3a3a;
+				font-family: arial, ;
+				font-size: 0.688em;
+			}
+			
+			.footer p small {
+				font-size: inherit;
+			}
+			
+			.clearfix:before,
+			.clearfix:after {
+				content: "";
+				display: table;
+			}
+			
+			.clearfix:after {
+				clear: both;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="page">
+			<header class="masthead" role="banner">
+				<p class="logo"><img src="img/logo.png" alt="Le Journal" /></p>
+				<ul class="social-sites">
+					<li>
+						<a href="#">f</a>
+					</li>
+					<li>
+						<a href="#">t</a>
+					</li>
+					<li>
+						<a href="#">f</a>
+					</li>
+				</ul>
+
+				<nav role="navigation">
+					<ul class="nav-main">
+						<li>
+							<a href="#" class="current-page">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="container clearfix">
+				<main role="main">
+					<section class="post">
+						<h1>Sunny East Garden at the Getty Villa</h1>
+						<img class="post-photo-full" src="img/gettyvilla.jpg" width="600" height="365" alt="" />
+						<div class="post-blurb">
+							<p>It is hard to believe, but there are about 300 varieties of plants at the East Garden at the Getty, making the experience truly remarkable. This area is one of the most tranquil spaces at the Villa. As I wandered around, enjoying shade provided by sycamore and laurel trees and serenaded by splashing water from two sculptural fountains, I couldn't help but think of ancient Rome and the role of the garden 20 centuries ago. It was a place of peace and &hellip;
+								<a href="#" class="more">Read More</a>
+							</p>
+						</div>
+						<footer class="footer">
+							<p class="post-footer">Posted in
+								<a href="#">California</a>,
+								<a href="#">Los Angeles</a>and
+								<a href="#">Garden</a> <time>May 17,2016 at 9:20 pm</time></p>
+						</footer>
+					</section>
+
+					<section class="post">
+						<h1>The City Named After Queen Victoria</h1>
+						<img src="img/victoria.jpg" width="370" height="220" alt="" class="post-photo" />
+						<div class="post-blurb">
+							<p>An hour and a half aboard a comfortable car ferry is all it takes to transport you from the modern, urban space that is Greater Vancouver to colonial Vancouver Island, seemingly stuck in the 18th century. The main town of Victoria showcases all the picturesque gems the British Empire was so proud of at the height of its spanning expansion. Representative yet inviting Victorian style municipal buildings, a protected harbor and cobblestone streets populated with small shops and artisanal &hellip;
+								<a href="#" class="more"> Read more</a>
+							</p>
+						</div>
+
+						<footer class="footer">
+							<p class="post-footer">Posted in
+								<a href="#">Island</a>,
+								<a href="#">Canada</a>and
+								<a href="#">Roadtrip</a> <time>Rem 29,2016 at 9:20 pm</time></p>
+						</footer>
+					</section>
+
+					<nav role="navigation">
+						<ol>
+							<li>1</li>
+							<li>
+								<a href="#">2</a>
+							</li>
+							<li>
+								<a href="#">3</a>
+							</li>
+							<li>
+								<a href="#">4</a>
+							</li>
+							<li>
+								<a href="#">5</a>
+							</li>
+							<li>
+								<a href="#">6 &hellip;</a>
+							</li>
+							<li>
+								<a href="#">next</a>
+							</li>
+						</ol>
+					</nav>
+				</main>
+
+				<div class="sidebar">
+					<article>
+						<h2>About Me</h2>
+						<img src="img/about-me.jpg" width="270" height="162" alt="" />
+						<p>My name is Eleina Shinn. Exploring the unknown and learning about our planet is what brings me the most pleasure. I enjoy foreign cuisine, culture and discovering social design and architecture. During the last five years I traveled to over 20 countries on 4 continents, often with just my backpack and a map in hand.</p>
+					</article>
+					<div>
+						<h2>My Travels</h2>
+						<img src="img/map.png" width="298" height="145" alt="">
+					</div>
+
+					<aside>
+						<h2>Popular Posts</h2>
+						<ul>
+							<li>
+								<a href="#">The City Named After Queen Victoria</a>
+							</li>
+							<li>
+								<a href="#">Heaven on Earth? Let's Have Dinner in Paris</a>
+							</li>
+							<li>
+								<a href="#">Enjoying Strauss at the Volksoper in Vienna</a>
+							</li>
+						</ul>
+					</aside>
+
+					<aside>
+						<h2>Recently Shared</h2>
+						<ul>
+							<li>
+								<a href="#">Heaven on Earth? Let's Have Dinner in Paris</a>
+							</li>
+							<li>
+								<a href="#">Experiencing Ramadan in Morocco</a>
+							</li>
+							<li>
+								<a href="#">Octoberfest in Munich: The Party for The King's Daughter</a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+
+			<footer role="contentinfo" class="footer">
+				<p class="legal"><small>&copy; 2016 yuan All Rights Reserved.</small></p>
+			</footer>
+		</div>
+
+	</body>
+
+</html>
